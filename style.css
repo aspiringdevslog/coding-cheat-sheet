@@ -1,0 +1,42 @@
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.filter-tags{
+	display: flex;
+	flex-direction: row;
+}
+
+.tags{
+	padding: 10px;
+	margin: 2px; 
+	border: 2px solid black;
+	border-radius: 20%;
+}
+
+.illustration{
+	max-width: 500px;
+	margin: 10px; 
+}
+
+.codeSnippet{
+	display: block;
+	background: lightgrey;
+	max-width: 50%;
+	padding: 5px;
+	margin: 5px; 
+}
+
+.codeSnippet-variables{
+	display: flex;
+	flex-direction: row;
+}
+
+.var{
+	padding: 10px;
+	margin: 2px; 
+	border: 2px solid black;
+	border-radius: 5px;
+}
